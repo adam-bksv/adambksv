@@ -17,11 +17,11 @@ body {
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  transition: transform 0.1s ease; /* << add this */
+  transition: all .3s ease; /* << add this */
   will-change: transform; /* optimization */
   perspective: 1000px; /* optional, makes it nicer */
 }
-.centered-glass:hover {
+.centered-glass {
   transform: scale(1.1);
 }
 p {
