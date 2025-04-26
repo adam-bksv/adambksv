@@ -21,6 +21,9 @@ body {
   will-change: transform; /* optimization */
   perspective: 1000px; /* optional, makes it nicer */
 }
+.centered-glass:hover {
+  transform: scale(1.1);
+}
 p {
   font: 15px Arial, sans-serif;
 }
@@ -38,10 +41,6 @@ svg {
   width: 100%;
   height: 100vh;
   z-index: -1; /* <<< Add this line */
-  transition: all .66s;
-}
-svg:hover {
- transform: scale(1.1); 
 }
 a {
   text-decoration: none;
